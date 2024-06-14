@@ -1,0 +1,31 @@
+*{
+    Background:rgb(155, 155, 155)
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-shadow: 10px 10px 10px black;
+}
+.allslides{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+.slides{
+    display: flex;
+    margin-top: 140px;
+  }
+  
+.slides img {
+    width: 100%;
+    display: none;
+  }
+  
+.slides img:first-child {
+    display: block;
+  }
